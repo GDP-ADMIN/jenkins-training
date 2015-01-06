@@ -36,7 +36,7 @@ RUN pear install PHP_CodeSniffer && \
     php5enmod xdebug && \
     php5enmod mcrypt
 
-ENV JENKINS_VERSION 1.565.3
+ENV JENKINS_VERSION 1.580.1
 ENV JENKINS_HOME /var/jenkins_home
 
 ADD init.groovy /tmp/WEB-INF/init.groovy.d/tcp-slave-angent-port.groovy
