@@ -1,0 +1,4 @@
+jenkins:
+    build: docker
+    volumes:
+        - /jenkins-training:/var/jenkins_home
