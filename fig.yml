@@ -2,3 +2,5 @@ jenkins:
     build: docker
     volumes:
         - /jenkins-training:/var/jenkins_home
+    ports:
+        - 8080:8080
