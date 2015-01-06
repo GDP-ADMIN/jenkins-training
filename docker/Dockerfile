@@ -3,7 +3,7 @@ MAINTAINER Roy Inganta Ginting <roy.i.ginting@gdplabs.id>
 
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && \
-    apt-get install -y openjdk-7-jdk ant unzip zip wget git curl tree php5-cli php5-fpm \
+    apt-get install -y openjdk-7-jdk ant unzip zip git curl tree make php5-cli php5-fpm \
     php5-dev php-pear php5-mysql php5-mcrypt php5-gd php5-curl php5-xsl && \
     rm -rf /var/lib/apt/lists/*
 
