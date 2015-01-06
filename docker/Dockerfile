@@ -34,7 +34,7 @@ RUN pear install PHP_CodeSniffer && \
     pecl install xdebug && \
     echo "zend_extension=`php-config --extension-dir`/xdebug.so" > /etc/php5/mods-available/xdebug.ini && \
     php5enmod xdebug && \
-    php5enmod mcrypt && \
+    php5enmod mcrypt
 
 ENV JENKINS_VERSION 1.565.3
 ENV JENKINS_HOME /var/jenkins_home
